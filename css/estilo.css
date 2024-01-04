@@ -1,0 +1,247 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+p,h1,h2,h3,h4{
+    color: #fff;
+}
+
+main{
+    background:rgba(0, 0, 0, 0.712);
+}
+
+span{
+    color: rgb(14, 212, 238);
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 180px;
+    background: #F2F2F2;
+    position: sticky;
+}
+
+main nav h1{
+    font-size: 32px;
+    color: gray;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+    padding: 10px;
+}
+
+a:hover{
+    color: rgb(50, 191, 209);
+}
+
+#CASA{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.contenedor{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+
+.contenedor h2{
+    font-size: 60px;
+    padding: 30px;
+}
+
+.contenedor p{
+    padding: 15px 15px 30px 15px;
+}
+
+.contenedor button{
+    color: #fff;
+    background: transparent;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    font-size: 15px;
+    margin: 15px;
+}
+
+img{
+    object-fit: cover;
+    width: 100%;
+    height: 600px;
+}
+
+h4{
+    text-align: center;
+    margin: 15px;
+    font-size: 30px;
+}
+
+.ACERCA{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.ACERCA1,.ACERCA2,.ACERCA3{
+    flex-basis: 400px;
+    margin: 10px;
+}
+
+.ACERCA i{
+    font-size: 20px;
+    padding: 20px;
+    border: 2px solid #fff;
+}
+
+
+.ACERCA p{
+    padding: 15px;
+    position: relative;
+    position: relative;
+    left: 60px;
+    width: 340px;
+}
+
+.EQUIPO{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.EQUIPO img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.EQUIPO1,.EQUIPO2,.EQUIPO3,.EQUIPO4{
+    flex-basis: 250px;
+    margin: 20px;
+}
+
+.EQUIPO h5{
+    font-size: 20px;
+    color: #fff;
+    padding: 20px 10px 10px;
+}
+
+.EQUIPO h6{
+    font-size: 15px;
+    padding: 10px;
+}
+
+.EQUIPO p{
+    padding: 10px;
+}
+
+.SERVICIO{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 10px;
+}
+
+.SERVICIO1,.SERVICIO2,.SERVICIO3{
+    flex-basis: 350px;
+    padding: 30px;
+    
+}
+
+.SERVICIO i{
+    font-size: 50px;
+    padding: 20px;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.SERVICIO h6{
+    font-size: 20px;
+    padding: 20px 0px;
+}
+
+.CONTACTO{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 30px;
+    background: rgb(32, 32, 32);
+}
+
+.CONTACTO1{
+    flex-basis: 600px;
+    padding: 20px;
+}
+
+.CONTACTO1 p{
+    padding: 15px;
+}
+
+.CONTACTO1 input{
+    padding: 10px;
+    width: 100%;
+}
+
+.CONTACTO1 textarea{
+    width: 100%;
+    resize:  none;
+}
+
+.CONTACTO1 button{
+    width: 100%;
+    padding: 10px;
+    background: blue;
+    color: #fff;
+    border: none;
+    margin-top: 12px;
+    
+}
+
+.CONTACTO2{
+    flex-basis: 600px;
+    padding: 20px;
+}
+
+.CONTACTO2 h1{
+    padding: 10px;
+}
+
+.CONTACTO2 p{
+    padding: 15px;
+}
+
+.final{
+    font-size: 25px;
+    border-top: 2px solid #fff;
+}
+
+.CONTACTO2 i{
+    padding: 10px;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+}
+
+.titulofinal{
+    background: rgb(32, 32, 32);
+    margin: 40px 0px;
+}
+
+.finalisimo{
+    background: rgb(32, 32, 32);
+}
